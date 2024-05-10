@@ -1,0 +1,130 @@
+/* Cores
+Cinza Claro: #7F7F7F
+Azul: #2E68FF
+Preto: #000000
+Azul Claro: #F4F9FF
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* FonteInter */
+*{font-family: 'Inter', sans-serif;}
+
+body {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+}
+header section.centro {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 48px;
+} 
+
+a {
+  font: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+section.logo a img {
+  max-width: 100px;
+}
+
+section.carrinho a img {
+  max-width: 100px;
+  display: flex;
+  gap: 32px;
+}
+
+h2 {
+  font-size: 48px;
+  color: black;
+}
+
+p.nome {
+  font-size: 18px;
+  color: black;
+}
+
+p.valor {
+  font-size: 32px;
+  color: #7F7F7F;
+}
+
+section.centro {
+  width: 1216;
+  margin: 0px auto;  
+}
+
+header section.centro {
+  display: flex;
+}
+
+section.banner img {
+  max-width: 1216px;
+}
+
+section.categorias ul {
+  display: flex;
+  gap: 32px;
+  /* Resetando valores padrões */
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+section.lista {
+  /* FlexBox */
+  display: flex;
+  /* Só funciona com display: flex */
+  flex-wrap: wrap;
+  /* Gap: Espaçamento em cada um dos filhos */
+  gap: 32px;
+}
+
+section.produto-individual {
+  width: 382px;
+  text-align: center;
+}
+
+section.produto-individual img {
+  max-width: 382px;
+}
+
+section.produto-individual p.nome {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px; 
+}
+
+section.produto-individual p.valor {
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px; 
+}
+
+footer {
+  display: flex;
+  text-align: center;
+}
+
+#sobre {
+  display: flex;
+  text-align: center;
+}
+#navegar {
+  display: flex;
+  text-align: center;
+}
+#contato {
+  display: flex;
+  text-align: center;
+}
